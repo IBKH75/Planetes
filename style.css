@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header .menu-container{
+    background-color: #1B2430;
+
+}
+
+header .menu-container div {
+    max-width: 1200px;
+    display: flex;
+    margin: auto; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding-left: 16px; 
+}
+header nav ul{ 
+    display: flex;
+    list-style: none;
+   
+   
+}
+header nav a {
+    padding: 40px 16px;
+    display: block;
+    text-decoration: none;
+    color: white;
+
+}
+header nav li:first-of-type a{
+   text-decoration: underline 2px;
+    text-underline-offset: 8px ;
+}
+
+
+
+header div img{
+    height: 50px;
+    width: 75px;
+
+}
+
+header img{
+    width: 100%;
+}
+
+ 
+.container{
+    display: flex;
+    max-width: 1200;
+    margin: auto;
+}
+
+.mercure-image {
+    width: 300px; 
+    height: 200px; 
+    margin-right: 127px;
+    margin-top: 50px;   
+
+}
+
+.status {
+    display: flex;   
+    margin-top: 16px;
+    margin-bottom: 16px;
+   
+}
+
+main article .nature {
+    margin-right: 26px;
+    background-color: #D6D5A8; 
+    border-radius: 10px;
+    padding: 12px 16px;
+    
+}
+
+main article .epoque { 
+    background-color: #1B2430;
+    border-radius: 10px;
+    padding: 12px 16px;
+    
+}
+.status p{
+    padding: 12px 16px ;
+    border-radius: 10px;
+}
+
+
